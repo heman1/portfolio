@@ -1,12 +1,7 @@
 # Portfolio
-my personnel portfolio website https://himanshunegi.ml.
-Here I have showcased some of my projects and interests. 
+personnel portfolio website https://himanshunegi.me.
+Here I have showcased some of my projects and skills. 
 
 ## Tech Used
-* HTML
-* CSS
-* JS
-* Processing.js
-* Formspree for contact form
+* HTML | CSS | JS
 
-*animate.css library is also used and the website is hosted on firebase.*
