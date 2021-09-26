@@ -148,10 +148,10 @@ header {
     right: 60px;
     top: 20px;
     border-radius: 12px 12px 12px 12px;
+    box-shadow: 1px 2px 9px 0px #ff7676;
     z-index: 2;
     animation-name: pop-up;
-    animation-duration: 0.6s;
-    animation-delay: 0.2s;
+    animation-duration: 0.4s;
     animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
     animation-fill-mode: forwards; 
 }
@@ -199,6 +199,11 @@ header {
 .pop2 ul li i {
     font-size: 24px;
     margin-right: 10px;
+}
+
+.pop2 a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .highlight:hover {
@@ -281,11 +286,6 @@ header {
     0% {
         width: 0px;
         height: 0px;
-    }
-    50% {
-        width: 100px;
-        height: 100px;
-        border-radius: 50% 50% 20% 20%;
     }
     100% {
         width: 250px;
@@ -436,6 +436,12 @@ li.layer {
     font-size: 36px;
 }
 
+.s-no {
+    border-bottom: 1px dashed var(--primary-color);
+    width: 60%;
+    font-size: 28px;
+}
+
 .project {
     display: flex;
     width: 90%;
@@ -445,7 +451,6 @@ li.layer {
 .project .img-container {
     order: 1;
     width: 50%;
-    overflow: hidden;
 }
 
 
@@ -493,6 +498,11 @@ li.layer {
     margin-top: 50px;
 }
 
+.goto-links a, footer li a {
+    text-decoration: none;
+    color: var(--text-base)
+}
+
 .arrow {
     width: 22px;
     height: 22px;
@@ -536,6 +546,10 @@ li.layer {
 
 .btn:hover::after {
     width: 100%;
+}
+
+#my-form button {
+    background: transparent;
 }
 
 .get-in-touch {
